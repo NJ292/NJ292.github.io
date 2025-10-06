@@ -7,18 +7,3 @@ color: #93D94E;
 text-align: center;
 }
 
-.about{
-    background: #60BF81;
-    text-shadow: #93D94E;
-}
-.skills{
-    background: #3B8C66;
-    font-style: italic;
-}
-.projects{
-    background: #93D94E;
-}
-.contact{
-    background: deeppink;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}

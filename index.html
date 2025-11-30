@@ -12,6 +12,41 @@
      <link rel="stylesheet" href="aboutstyle.css">
     </div>
     <div class="skills"><h2>Skills</h2>
+        <p>Coding Examples</p>
+        <p>This is one for a game in JavaScript</p>
+        <p>char[][] road = new char[BOARD_SIZE][BOARD_SIZE];
+		    for(int i=0;i<road.length;i++)
+		    {
+			    for(int j=0;j<road[i].length;j++) 
+			    {
+				    road[i][j] = SPACE; 
+			    }
+		    }
+		    //Setting up the characters	
+		    road[sX][sY] = PLAYER;
+		    road[hX][hY] = HOME;
+		
+		    road[pX1][pY1] = HOLE;
+		    road[pX2][pY2] = HOLE;
+		    road[pX3][pY3] = HOLE;
+		    road[pX4][pY4] = HOLE;
+		    road[pX5][pY5] = HOLE;
+		
+		    System.out.println("Time to play the driving game! Avoid the potholes and get home!");
+		    boolean gameOver = false;
+		    while(gameOver)
+		    {
+			    for (int i=0;i<road.length;i++)
+			    {
+				    for(int j=0;j<road[i].length;j++)
+				    {
+					    System.out.print(road[i][j]);
+				    }
+				    System.out.println();
+			    }
+			    int distance = (sX-hX)*(sX-hX)+(sY-hY)*(sY-hY);
+		    }
+		</p>
     <link rel="stylesheet" href="skillstyle.css">
     </div>
 

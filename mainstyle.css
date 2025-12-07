@@ -1,6 +1,7 @@
 body{
  color: #267302; 
-background-color: black;
+background:black url(/images/heart.png) repeat;
+
 text-align: center;
 font-size: 35pt;
 }
